@@ -12,20 +12,12 @@
 	height: 80px;
 	background-color: #452215;
 }
-#menu{
-	position: absolute;
-	top: 80px;
-	left: 0px;
-	height: 420px;
-	width: 170px;
-	background-color: #0000ff;
-}
 #tekst{
 	position: absolute;
 	top: 80px;
 	left: 170px;
 	height: 420px;
-	width: 630px;
+	width: 800px;
 	background-color: #444fff;
 }
 table{
