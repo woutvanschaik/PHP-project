@@ -25,16 +25,8 @@
 	top: 80px;
 	left: 170px;
 	height: 420px;
-	width: 400px;
+	width: 630px;
 	background-color: #444fff;
-}
-#foto{
-	position: absolute;
-	top: 80px;
-	left: 570px;
-	height: 420px;
-	width: 230px;
-	background-color: #ff00f0;
 }
 table{
 	border-style: double;
