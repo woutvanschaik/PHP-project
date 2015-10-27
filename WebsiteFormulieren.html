@@ -6,12 +6,19 @@
 	</head>
 	<body>
 		<!-- Het form element met de action en method attributen -->
-		<form method="post" action="phpProject/WebsiteQuery.php">
+		<form method="get" action="phpProject/WebsiteQuery.php">
 			<fieldset>
 				<legend>Invoer formulier</legend>
 				
-				<textarea name="query" rows="8" cols="90"></textarea>
-				<input class="knop" type="submit" value="Go"/>
+				<input type="radio" name="vraag1" value="0" id="vraag1a"/><label for="vraag1a">Zeer eens</label>
+				<input type="radio" name="vraag1" value="1" id="vraag1b"/><label for="vraag1b">Eens</label>
+				<input type="radio" name="vraag1" value="2" id="vraag1c"/><label for="vraag1c">Neutraal</label>
+				<input type="radio" name="vraag1" value="3" id="vraag1d"/><label for="vraag1d">Oneens</label>
+				<input type="radio" name="vraag1" value="4" id="vraag1e"/><label for="vraag1e">Zeer oneens</label>
+
+
+				
+				<input class="knop" type="submit" value="Verder"/>
 			</fieldset>
 		</form>
 	</body>
