@@ -1,0 +1,59 @@
+#container{
+	position: relative;
+	margin: auto;
+	height: 500px;
+	width: 800px;
+}
+#kop{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 80px;
+	background-color: #452215;
+}
+#menu{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	height: 420px;
+	width: 170px;
+	background-color: #0000ff;
+}
+#tekst{
+	position: absolute;
+	top: 80px;
+	left: 170px;
+	height: 420px;
+	width: 400px;
+	background-color: #444fff;
+}
+#foto{
+	position: absolute;
+	top: 80px;
+	left: 570px;
+	height: 420px;
+	width: 230px;
+	background-color: #ff00f0;
+}
+table{
+	border-style: double;
+	border-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+td{
+	border-style: double;
+	border-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 5px;	
+}
+th{
+	border-style: double;
+	border-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+thead{
+	font-style: italic;
+}
