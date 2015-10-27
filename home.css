@@ -1,23 +1,23 @@
 #container{
 	position: relative;
 	margin: auto;
-	height: 500px;
-	width: 800px;
+	height: 580px;
+	width: 900px;
 }
 #kop{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 800px;
+	width: 900px;
 	height: 80px;
 	background-color: #452215;
 }
 #tekst{
 	position: absolute;
 	top: 80px;
-	left: 170px;
-	height: 420px;
-	width: 800px;
+	left: 0px;
+	height: 500px;
+	width: 900px;
 	background-color: #444fff;
 }
 table{
